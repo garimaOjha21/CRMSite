@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="PageOject.LandingPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="afterClasssetup"/>
+        </methods>
+      </class> <!-- PageOject.LandingPageTest -->
+      <class name="PageOject.HomePageTest">
+        <methods>
+          <include name="endHomePAge"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- PageOject.HomePageTest -->
+      <class name="PageOject.NewContactPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="verifyTitleList"/>
+          <include name="closeTab"/>
+        </methods>
+      </class> <!-- PageOject.NewContactPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
