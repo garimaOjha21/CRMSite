@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35942" started-at="2019-08-15T17:18:30Z" finished-at="2019-08-15T17:19:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35942" started-at="2019-08-15T17:18:30Z" finished-at="2019-08-15T17:19:06Z">
+      <class name="PageOject.NewContactPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:PageOject.NewContactPageTest@2ef5e5e3]" name="init" is-config="true" duration-ms="33804" started-at="2019-08-15T22:48:30Z" finished-at="2019-08-15T22:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:PageOject.NewContactPageTest@2ef5e5e3]" name="verifyTitle" duration-ms="29" started-at="2019-08-15T22:49:04Z" finished-at="2019-08-15T22:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitleList()[pri:0, instance:PageOject.NewContactPageTest@2ef5e5e3]" name="verifyTitleList" duration-ms="1308" started-at="2019-08-15T22:49:04Z" finished-at="2019-08-15T22:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleList -->
+        <test-method status="PASS" signature="closeTab()[pri:0, instance:PageOject.NewContactPageTest@2ef5e5e3]" name="closeTab" is-config="true" duration-ms="771" started-at="2019-08-15T22:49:05Z" finished-at="2019-08-15T22:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+      </class> <!-- PageOject.NewContactPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
