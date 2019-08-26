@@ -5,6 +5,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -44,7 +45,7 @@ public class LandingPageTest extends BaseClass
 		Assert.assertEquals(title , testUtils.homePageTitle);
 	}
 	
-/*	@Test(priority=2)
+  /*	@Test(priority=2)
 	public void validatehomeLink()
 	{
 		wait = new WebDriverWait(driver , 10);
@@ -52,16 +53,16 @@ public class LandingPageTest extends BaseClass
 		wait.until(ExpectedConditions.elementToBeClickable(landingPage.homeLink));
 		landingPage.homeLink.click();
 		
-	}
+	}*/
 	
-	@Test(priority=3)
+/*	@Test(priority=3)
 	public void validatehomeLinkTitle()
 	{
 		title = driver.getTitle();
 		Assert.assertEquals(title , testUtils.homePageTitle);
 		
 	}*/
-/*	@Test(priority=4)
+/* 	@Test(priority=4)
 	public void verfySignUpClickTest()
 	{
 		landingPage.verfySignUpClick();
@@ -74,10 +75,8 @@ public class LandingPageTest extends BaseClass
 		title = driver.getTitle();
 		Assert.assertEquals(title , testUtils.homePageTitle);
 		
-	}*/
-	
-	
-	
+	}
+		*/
 	@AfterClass
 	public void afterClasssetup()
 	{

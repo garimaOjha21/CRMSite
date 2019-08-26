@@ -45,6 +45,7 @@ public class NewContactPageTest
 		homePage = landingPage.loginIntoCRMLandingPage(prop.getProperty("username"), prop.getProperty("pwd"));
 		//driver.manage().timeouts().implicitlyWait(TestUtils.TIMETOLOAD  , TimeUnit.SECONDS);
 		newContactPage = homePage.verifyNewContact();
+		newContactPage.getDataFromExcel();
 	}
 	
 	@Test(priority=1)
@@ -57,14 +58,20 @@ public class NewContactPageTest
 	public void verifyTitleList() throws IOException  
 	{		
 		newContactPage.verifyTitleList();
-		newContactPage.getDataFromExcel();
 		newContactPage.setTitleValue();
 	}
 	
-	@AfterClass
+	@Test(priority=3)
+	public void verifyFirstName() throws IOException  
+	{		
+		newContactPage.setFirstName();
+		newContactPage.verifydob();
+	}
+	
+	/*@AfterClass
 	public void closeTab()
 	{
 		driver.quit();
-	}
+	}*/
 	
 }
