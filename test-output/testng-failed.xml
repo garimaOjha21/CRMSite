@@ -6,8 +6,7 @@
       <class name="PageOject.NewContactPageTest">
         <methods>
           <include name="init"/>
-          <include name="verifyTitleList"/>
-          <include name="closeTab"/>
+          <include name="verifyFirstName"/>
         </methods>
       </class> <!-- PageOject.NewContactPageTest -->
     </classes>
