@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
-public class WebEventListener implements WebDriverEventListener {
+public class WebEventListener extends BaseClass implements WebDriverEventListener {
 
 	public void afterAlertAccept(WebDriver arg0) {
 		System.out.println("the alter box is been accepted " + arg0);

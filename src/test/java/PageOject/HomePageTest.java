@@ -11,10 +11,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import extendsReportPackage.ExtentReporterNG;
 import resources.BaseClass;
 import resources.TestUtils;
 
-public class HomePageTest {	
+public class HomePageTest extends ExtentReporterNG {	
 	
 	BaseClass baseClass;
 	Properties prop;
